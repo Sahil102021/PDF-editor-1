@@ -8,10 +8,17 @@
     --clr-light-skylight-1 : #e6ffff;
     --clr-light-skyblue : #F5F9FC;
     --clr-white : #fff;
+    --cle-gray : #4B596A;
+    --clr-light-green-3 : #14AE651C;
+    --clr-light-gray :#F9F9F987;
 
      /* radius */
   --radius-xl: 30px;
 
   /* shadow */
-  --shadow-box : #14ae6587  0px 2px 8px 0px;;
+  --shadow-box : #14ae6587  0px 2px 8px 0px;
+
+  /* font-family */
+    --font-Matter : 'Matter';
+  
 }
