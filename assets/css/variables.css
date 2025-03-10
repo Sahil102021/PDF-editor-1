@@ -1,0 +1,17 @@
+:root {
+    /* color style */
+    --clr-light-green :  #14AE65;
+    --clr-light-new-yello : #FBF8EF;
+    --clr-dark-blue : #1B1C27;
+    --clr-light-green-2 : #14AE651C;
+    --clr-light-green-1 : #14ae650a;
+    --clr-light-skylight-1 : #e6ffff;
+    --clr-light-skyblue : #F5F9FC;
+    --clr-white : #fff;
+
+     /* radius */
+  --radius-xl: 30px;
+
+  /* shadow */
+  --shadow-box : #14ae6587  0px 2px 8px 0px;;
+}
