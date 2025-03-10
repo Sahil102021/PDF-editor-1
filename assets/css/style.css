@@ -54,19 +54,19 @@ p{
 .bg-light-gary {
 background-color : var(--clr-light-gray)
 }
-.text-5{
+.text-v{
     font-size: 18px;
     font-weight: 500;
 }
-.text-6{
+.text-vi{
     font-size: 26px;
     font-weight: 400;
 }
-.text-7{
+.text-vii{
     font-size: 18px;
     font-weight: 300;
 }
-.text-8 {
+.text-viii {
     font-size: 18px;
     font-weight: 600;
 }
@@ -77,7 +77,7 @@ background-color : var(--clr-light-gray)
     font-weight: 500;
     font-size: 16px;
 }
-.text-4 {
+.text-iv {
     font-weight: 400;
     font-size: 20px;
     color: var(--cle-gray);
@@ -255,7 +255,7 @@ table tr td {
 }
 
 .list-t1:hover {
-    .box-list {
+    .how-to-use-list {
         background-color: var(--clr-light-green);
         color: var(--clr-white);
         box-shadow: var(--shadow-box);
@@ -269,7 +269,7 @@ table tr td {
 }
 
 .list-t1:hover {
-    .box-list-1 {
+    .how-to-use-list-last {
         background-color: var(--clr-light-green);
         color: var(--clr-white);
         box-shadow: var(--shadow-box);
@@ -279,7 +279,7 @@ table tr td {
     }
 }
 
-.box-list{
+.how-to-use-list{
     padding: 10px 15px;
     display: flex;
     align-items: center;
@@ -297,7 +297,7 @@ table tr td {
     }
 }
 
-.box-list-1{
+.how-to-use-list-last{
     padding: 10px 15px;
     display: flex;
     align-items: center;
@@ -321,7 +321,15 @@ table tr td {
     padding: 0 10px;   /* Adds spacing for better readability */
   }
 
-    .custom-placeholder::placeholder {
+.custom-placeholder::placeholder {
         color: #6c757d;  /* Change this to any color */
         opacity: 1; /* Ensures full visibility */
-    }
+}
+
+.nav-item a {
+        transition: color 0.3s ease-in-out;
+}
+
+.nav-item a:hover {
+        color: var(--clr-light-green) !important; /* Change color on hover (Yellow in this case) */
+}

@@ -44,7 +44,7 @@
     .quaternary-title {
         font-size: 40px;
     }
-    .text-6{
+    .text-vi{
         font-size: 20px;
         font-weight: 400;
     }
@@ -59,10 +59,10 @@
     .quaternary-title {
         font-size: 40px;
     }
-    .text-4{
+    .text-iv{
         font-size: 16px;
     }
-    .text-6{
+    .text-vi{
         font-size: 18px;
         font-weight: 400;
     }
@@ -77,10 +77,10 @@
     .quaternary-title {
         font-size: 28px;
     }
-    .text-4{
+    .text-iv{
         font-size: 16px;
     }
-    .text-6{
+    .text-vi{
         font-size: 16px;
         font-weight: 400;
     } 
@@ -95,10 +95,10 @@
     .quaternary-title {
         font-size: 28px;
     }
-    .text-4{
+    .text-iv{
         font-size: 16px;
     }
-    .text-6{
+    .text-vi{
         font-size: 16px;
         font-weight: 400;
     }
@@ -107,7 +107,7 @@
     .container-3xl {
         width: 540px;
     }
-    .text-5 , .text-7{
+    .text-v , .text-7{
         font-size: 18px;
     }
     .primary-title{
@@ -116,10 +116,10 @@
     .quaternary-title{
         font-size: 28px;
     }
-    .text-4{
+    .text-iv{
         font-size: 16px;
     }
-    .text-6{
+    .text-vi{
         font-size: 16px;
         font-weight: 400;
     }
@@ -129,7 +129,7 @@
     .container-3xl {
         width: 415px;
     }
-    .text-5 , .text-7{
+    .text-v , .text-7{
         font-size: 18px;
     }
     .primary-title{
@@ -138,10 +138,10 @@
     .quaternary-title{
         font-size: 28px;
     }
-    .text-4{
+    .text-iv{
         font-size: 16px;
     }
-    .text-6{
+    .text-vi{
         font-size: 16px;
         font-weight: 400;
     }
@@ -149,12 +149,24 @@
   }
   
   @media (max-width : 425px) {
+    .secondary-title{
+        font-size: 18px;
+    }
     .container-3xl {
         width: 100%;
     }
+    .transparent-btn{
+        padding: 5px;
+    }
+    .primary-btn{
+        padding: 5px;
+    }
   }
   @media (max-width: 300px) {
-    .text-5 , .text-7{
+    .secondary-title{
+        font-size: 18px;
+    }
+    .text-v , .text-7{
         font-family: 16px;
     }
     .primary-title{
@@ -163,17 +175,23 @@
     .quaternary-title {
         font-size: 24px;
     }
-    .text-4{
+    .text-iv{
         font-size: 16px;
     }
-    .text-6{
+    .text-vi{
         font-size: 16px;
         font-weight: 400;
     }
-    .box-list {
+    .how-to-use-list {
         padding: 5px 5px;
     }
-    .box-list-1 {
+    .how-to-use-list-1 {
         padding: 5px 5px;
+    }
+    .transparent-btn{
+        padding: 5px;
+    }
+    .primary-btn{
+        padding: 5px;
     }
   }
